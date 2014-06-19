@@ -1,0 +1,549 @@
+/**
+
+
+
+Title : Candybar Powered Theme [ Portfolio ] Personal Use
+
+Author : Victor Paul Noel
+
+Version : 1.0
+
+Comments : Overrided bootstrap & New handcrafted CSS
+
+
+
+**/
+
+
+
+
+
+/*========== Reset & Basics ==========*/
+
+html,body{
+
+	
+
+}
+
+li a{
+
+	text-decoration:none;
+
+}
+
+/*========== End of Reset & Basics ==========*/
+
+
+
+
+
+/*========== HTML Body Structure ===========*/
+
+#slide{
+
+	width: 100%;
+
+	/*height: 980px;*/
+
+	/*background: #df6662;*/
+
+}
+
+.mg-top{
+
+	padding-top: 110px;
+
+}
+
+.navbar-nav>li>a{
+
+	font-size:30px;
+
+	font-family:'bbn';
+
+}
+
+.navbar-default .navbar-collapse{
+
+	border-color:transparent !important;
+
+}
+
+.container{
+
+	margin-top:30px;
+
+}
+
+.white{
+
+	background:#fff;
+
+}
+
+.sun-flower{
+
+	background:#FFDB47;
+
+}
+
+.midnight{
+
+	background:#2C3E50;
+
+}
+
+.div-center{
+
+	padding: 120px 0 170px 0;
+
+	overflow: auto;
+
+}
+
+.content-container{
+
+	position: relative;
+
+	width: 980px;
+
+	margin: 0 auto;
+
+	padding: 0;
+
+}
+
+.div-section{	
+
+	min-height:100%;
+
+	position:relative;
+
+	height:auto;
+
+	clear:both;
+
+}
+
+.navbar{
+
+	min-height:110px !important;
+
+}
+
+.mid-line{
+
+	width:350px;
+
+	border:1px solid #FC6F60;
+
+	margin:30px auto;
+
+}
+
+.col-lg-4 img{
+
+	margin-bottom:20px;
+
+	margin-top:20px;
+
+}
+
+
+
+.portfolioFilter{
+
+	/*width:700px;*/
+
+	margin:0 auto 70px auto;
+
+	text-align:center;
+
+}
+
+/*========== End of HTML Body Structure ===========*/
+
+
+
+
+
+/*=========== Text CSS Structures ===========*/
+
+@font-face {
+
+  font-family: 'bbn';
+
+  src: url('../fonts/BebasNeue-webfont.eot'); /* IE9 Compat Modes */
+
+  src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+
+       url('../fonts/BebasNeue-webfont.woff') format('woff'), /* Modern Browsers */
+
+       url('../fonts/BebasNeue-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+
+       url('../fonts/BebasNeue-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+
+}
+
+@font-face {
+
+    font-family: 'Mono Social Icons Font';
+
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+
+         url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+
+         url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+
+         url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+
+    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+
+
+.symbol, a.symbol:before {
+
+    font-family: 'Mono Social Icons Font';
+
+    -webkit-text-rendering: optimizeLegibility;
+
+    -moz-text-rendering: optimizeLegibility;
+
+    -ms-text-rendering: optimizeLegibility;
+
+    -o-text-rendering: optimizeLegibility;
+
+    text-rendering: optimizeLegibility;
+
+    -webkit-font-smoothing: antialiased;
+
+    -moz-font-smoothing: antialiased;
+
+    -ms-font-smoothing: antialiased;
+
+    -o-font-smoothing: antialiased;
+
+    font-smoothing: antialiased;
+
+}
+
+
+
+a.symbol:before {
+
+    content: attr(title);
+
+    margin-right: 0.3em;
+
+    font-size: 50px;
+
+}
+
+
+
+.navbar-brand{
+
+	font-size:42px !important;
+
+	font-family:'bbn';
+
+	color:#fff !important;
+
+}
+
+.midnight-text{
+
+	color:#587DA1 !important;
+
+}
+
+.star-head{
+
+	text-align:center;
+
+	font-size:60px;
+
+	font-family:'bbn';
+
+	font-weight:800px;
+
+	text-transform:uppercase;
+
+}
+
+.white-text{
+
+	color:#fff !important;
+
+}
+
+.alizarin-pink-text{
+
+	color:#FC6F60 !important;
+
+}
+
+.navbar-default{
+
+	background:#34495E !important;
+
+	border-color:transparent !important;
+
+}
+
+.large{
+
+	font-size:125px;
+
+}
+
+.small{
+
+	font-size:50px !important;
+
+}
+
+a{
+
+	text-decoration:none !important;
+
+}
+
+.symbol a{
+
+	padding:0 8px;
+
+	color:#FC6F60;
+
+}
+
+.symbol a:hover{
+
+	color:#FF5947;
+
+}
+
+.col-lg-4 p{
+
+	font-family:'bbn';
+
+	font-size:32px;
+
+	color:#A3A3A3;
+
+}
+
+.col-lg-4 h2{
+
+	font-family:'bbn';
+
+	font-size:60px;
+
+}
+
+form h2{
+
+	font-family:'bbn';
+
+	font-size:30px;
+
+	color:#fff;
+
+}
+
+
+
+.portfolioFilter a{
+
+	font-family:'bbn';
+
+	font-size:30px;
+
+	color:#fff !important;
+
+}
+
+a.current{
+
+	color:#BF9A00 !important;
+
+	font-weight:100 !important;
+
+}
+
+.footer-author{
+
+	margin:0;
+
+	text-align:center;
+
+	font-family:'bbn';
+
+	font-size:28px;
+
+	color:#fff;
+
+	padding-top:90px;
+
+}
+
+/*=========== End of Text CSS Structures ===========*/
+
+
+
+
+
+/*=========== Form Control CSS Structures ===========*/
+
+
+
+form button{
+
+	margin-top:30px;
+
+	font-family:'bbn';
+
+	font-size:25px !important;
+
+	border-radius:0px !important;
+
+	width:250px;
+
+	color:#666;
+
+	-webkit-border-radius:0px !important;
+
+	-moz-border-radius:0px !important;
+
+}
+
+
+
+.form-control{
+
+	-webkit-border-radius: 0px !important;
+
+	-moz-border-radius: 0px !important;
+
+	border-radius: 0px !important;
+
+	-webkit-box-shadow:none !important;
+
+	box-shadow: none !important;
+
+	-webkit-transition:none !important;
+
+	transition:none !important;
+
+	padding:30px 40px !important;
+
+	font-size:16px !important;
+
+}
+
+
+
+textarea{
+
+	resize:none;
+
+	height:200px !important;
+
+}
+
+
+
+
+
+/*=========== End of Form Control CSS Structures ===========*/
+
+
+
+.flexslider{
+
+	margin: 0 !important;
+
+	padding: 0 !important;
+
+	border: none !important;
+
+	box-shadow: none !important;
+
+	border-radius:0 !important;
+
+	-webkit-border-radius:0 !important;
+
+	-moz-border-radius:0 !important;
+
+	-o-border-radius:0 !important;
+
+	display:block;
+
+}
+
+
+
+#slide .col-md-12{
+
+	padding:0 !important;
+
+}
+
+
+
+#slide img{
+
+	margin:0 !Important;
+
+}
+
+
+
+.flexslider ol{
+
+	/*display:none !important;*/
+
+	padding:40px 0;
+
+}
+
+
+
+.flexslider .slides li img{
+
+	height:auto;
+
+}
+
+
+
+.flex-viewport{
+
+	/*height:716px !important;*/
+
+}
+
+
+
+.flex-control-nav{
+
+	bottom:0px !important;
+
+	display:none !important;
+
+}
+
+/*=========== Start Flex Slider ===========*/
+
+
+
+/*=========== End of Flex Slider ===========*/
